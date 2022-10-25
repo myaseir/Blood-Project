@@ -1,0 +1,66 @@
+
+
+.progress{
+    height: 4px;
+    width: 0px;
+    background-color: red;
+    animation: panimation 1s ease-in-out ;
+ 
+}
+@keyframes panimation {
+    0%{
+        width: 0px;
+    }
+    50%{
+        width: 80px;
+    }
+    100%{
+        width:1800px;
+    }
+}
+
+
+
+
+/* FOR DISPLAY  */
+.displayName{
+    background: grey;
+    color: white;
+    font-size: x-large;
+    width: 80px;
+}
+.displayNumber{
+    background: grey;
+    color: white;
+    font-size: x-large;
+    width: 100px;
+}
+.displayGender{
+    background: grey;
+    color: white;
+    font-size: x-large;
+    width: 100px;
+}
+.displayBlood{
+    background: grey;
+    color: white;
+    font-size: x-large;
+    width: 150px;
+}
+.displayVillage{
+    background: grey;
+    color: white;
+    font-size: x-large;
+    width: 100px;
+}
+.displayPlace{
+    background: grey;
+    color: white;
+    font-size: x-large;
+    width: 100px;
+}
+.display{
+    background: rgba(225, 0, 0, 0.451);
+    color: white;
+    width: 150px;
+}

@@ -1,0 +1,57 @@
+.donate{
+position: absolute;
+display: flex;
+justify-content: center;
+top: 350px;
+left: 1000px;
+padding: 15px;
+/* background: rgb(0, 0, 0); */
+color: #e60000;
+border: 2px solid white;
+border-radius: 10px;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-size: large;
+}
+.donate:hover{
+    animation: glow 50s ease-in ;
+   
+}
+.need:hover{
+    animation: glow 50s ease-in ;
+}
+@-webkit-keyframes glow{
+    from{
+        text-shadow: 0px 0px 10px rgb(255, 0, 0), 0 0 20px rgb(255, 0, 0), 0 0 30px #e60000, 0px 0px 40px #e60000, 0 0 100px #e60000, 0 0 60px #e60000, 0 0 150px#e60000;
+    }
+}
+.need{
+position: absolute;
+top: 350px;
+left: 1200px;
+padding: 15px;
+/* background: rgb(255, 0, 0); */
+color: #e60000;
+border: 2px solid white;
+border-radius: 10px;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-size: large;
+}
+
+.clear{
+    position: absolute;
+    top: 750px;
+    left: 1590px;
+    padding: 10x;
+    background: rgb(46, 194, 0);
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: small;
+    }
+    .clear:hover{
+        background: rgb(0, 187, 31);
+    }

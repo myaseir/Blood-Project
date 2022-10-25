@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href= "button.css">
+    <link rel="stylesheet" href= "progess.css">
+    
+</head>
+<body>
+    <!-- <header>
+        <nav>
+            <ul>
+                <li>Contact Us</li>
+                <li>About</li>
+            </ul>
+        </nav>
+    </header> -->
+   
+    <div class="image">
+        <div class="progress">
+
+        </div>
+        <img class="blood" src="blood.avif" alt="">
+        
+    </div>
+    <button class="donate" id="donate" >Donate Blood</button>
+    <button class="need" id="need" onclick="needBlood()"> Need Blood</button>
+    <div class="inputData" id="inputData">
+        
+        <form action="">
+            <h3>Your Information</h3> 
+  <label for="name">Your Name:</label> 
+    <input type="text" id="name" name="name" placeholder="Enter your full name"> 
+    <label for="number">Enter Your Mobile Number</label> 
+    <input type="number" id="number" placeholder="Enter your mobile number">
+    
+    <label for="gender"> Select Gender</label>
+    <select name="gender" id="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+    </select> <br>
+    <label for="name">Enter Your Blood Group</label> 
+    <select name="bloodD" id="bloodD">
+        <option value="A RhD positive (A+)">A RhD positive (A+)</option>
+        <option value="A RhD negative (A-)">A RhD negative (A-)</option>
+        <option value="B RhD positive (B+)">B RhD positive (B+)</option>
+        <option value="B RhD negative (B-)">B RhD negative (B-)</option>
+        <option value="O RhD positive (O+)">O RhD positive (O+)</option>
+        <option value="O RhD negative (O-)">O RhD negative (O-)</option>
+        <option value="AB RhD positive (AB+)">AB RhD positive (AB+)</option>
+        <option value="AB RhD negative (AB-)">AB RhD negative (AB-)</option>
+        
+    </select>
+   
+    <br>
+    <label for="name">Enter Your Village Name</label> 
+    <input type="text" id="village" name="village" placeholder="Enter your village name"> 
+    <label for="location"> Select Your District</label>
+    <select name="place" id="place">
+        <option value="Gilgit">Gilgit</option>
+        <option value="Skardu">Skardu</option>
+        <option value="Astore">Astore</option>
+        <option value="Hunza">Hunza</option>
+        <option value="Ghizer">Ghizer</option>
+        <option value="Nagar">Nagar</option>
+        <option value="Diamer">Diamer</option>
+        <option value="Ghanche">Ghanche</option>
+        <option value="Kharmang">Kharmang</option>
+        <option value="Shiger">Shiger</option>
+        
+    </select> <br>
+    <button class="submit" id="submit">Submit</button>
+</form>
+</div>
+<button class="clear" id="clear">Clear Records</button>
+
+
+
+<script src="index.js"></script>
+<script src="donate.js"></script>
+<script src="need.js"></script>
+<script src="clear.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu:ital@1&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.blood{
+    height: 773px;
+    width: 1707px;
+}
+label{
+    /* background: green;
+    color: purple;  */
+   position: relative;
+   
+}
+input{
+    height: 30px;
+    width: 500px;
+}
+.inputData{
+    position:absolute;
+    display: flex;
+    
+    top: 30px;
+    background: rgba(207, 197, 197, 0.556);
+    height: 400px;
+    width: 530px;
+    margin-left: 450px;
+    margin-top: 100px;
+    /* align-items: inherit; */
+    opacity: 0;
+       
+}
+h3{
+    display: flex;
+    justify-content: center;
+    border: 4px solid green;
+    color: rgba(0, 0, 0, 0.855);
+    border-color: red yellow green hsla(60, 90%, 50%, .8);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+select{
+    height: 30px;
+    /* width: 300px; */
+}
+.submit{
+    padding: 3px;
+}
